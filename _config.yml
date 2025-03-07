@@ -1,4 +1,4 @@
-title: ""              # 设置全局标题
+title: "API Developer Guide"              # 设置全局标题
 description: ""        # 可选：网站描述
 baseurl: ""            # 如果部署在子目录，设置为 "/repository-name"，否则留空
 url: ""                # 你的网站 URL
