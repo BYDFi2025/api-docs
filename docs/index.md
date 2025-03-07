@@ -1,4 +1,6 @@
-# Get Affiliate UIDs
+# API Developer Guide
+
+## Get Affiliate UIDs
   - **Method**: ***GET***
   - **Url**: user-api-path/b2b/agent/affiliate_uids?uid=1234567&startTime=1234567890123&endTime=1234567890123&page=1&pageSize=100
   
