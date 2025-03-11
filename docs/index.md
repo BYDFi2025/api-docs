@@ -3,6 +3,9 @@
 ## Get Affiliate UIDs
   - **Method**: ***GET***
   - **Url**: user-api-path/b2b/agent/affiliate_uids?uid=1234567&startTime=1234567890123&endTime=1234567890123&page=1&pageSize=100
+
+Real-time retrieval is required (mandatory), and there should be no restrictions on the retrieval deadline.
+Same IP once/5 seconds
   
 ### Request Params
     
@@ -41,6 +44,8 @@
 ## Get Affiliate Commission
   - **Method**: ***GET***
   - **Url**: user-api-path/b2b/agent/affiliate_commission?uid=1234567&startTime=1234567890123&endTime=1234567890123&coin=USDT&productType=FUTURES&page=1&pageSize=100
+
+Same IP once/5 seconds
   
 ### Request Params
     
