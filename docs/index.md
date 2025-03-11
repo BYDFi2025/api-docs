@@ -32,7 +32,7 @@ Same IP once/5 seconds
   "code": 200,
   "data": [
     {
-      "uid": "1098631518919999489",
+      "uid": "1098631518919999000",
       "kycResult": false,
       "registerTime": 1739863765000
     }
@@ -82,7 +82,7 @@ Same IP once/5 seconds
             "date":"1580460059000",
             "fee":0.01,
             "productType":"SWAP",
-            "uid":"430043912850112512"
+            "uid":"430043912850112000"
         }
     ],
     "success":"success"
