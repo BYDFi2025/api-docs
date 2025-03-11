@@ -10,7 +10,7 @@
 |-------------|-------------|-------------|-------------|-------------|
 |  uid   |  Long  |  No    | KOL uid     |  1234567    |
 |  startTime  |  Long  |  No    | Start timestamp in UTC     |  1738734183391    |
-|  endTime    |  Long  |  No    | End timestamp in UTC     |  1738734183391    |
+|  endTime    |  Long  |  No    | End timestamp in UTC,StartTime and endTime cannot exceed 180 days     |  1738734183391    |
 |  page    |  int  |  No    | Paging for pages, starting from page 1, Default 1     |  1    |
 |  pageSize    |  int  |  No    | Paging size, default is 10     |  10    |
 
@@ -48,7 +48,7 @@
 |-------------|-------------|-------------|-------------|-------------|
 |  uid   |  Long  |  No    | KOL uid     |  1234567    |
 |  startTime  |  Long  |  No    | Start timestamp in UTC     |  1738734183391    |
-|  endTime    |  Long  |  No    | End timestamp in UTC     |  1738734183391    |
+|  endTime    |  Long  |  No    | End timestamp in UTC,StartTime and endTime cannot exceed 180 days    |  1738734183391    |
 | coin |  string  |  No  |  USDT or BTC... |  USDT  |
 |  productType  |  string  |  No  |  SPOT or SWAP...  |  SWAP  |
 |  page    |  int  |  No    | Paging for pages, starting from page 1, Default 1     |  1    |
